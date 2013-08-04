@@ -1,0 +1,45 @@
+2013-08-01 03:25:18 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [F:\WWW\wamp\www\tgat-dev-01\app\Controller\AppController.php, line 36]
+2013-08-01 03:25:18 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /tgat-dev-01/
+Stack Trace:
+#0 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'F:\WWW\wamp\www...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'F:\WWW\wamp\www...', 36, Array)
+#2 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'F:\WWW\wamp\www...', 36, Array)
+#3 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-01 03:31:32 Error: Fatal Error (1): Class 'appController' not found in [F:\WWW\wamp\www\tgat-dev-01\app\Controller\HomeController.php, line 3]
+2013-08-01 03:31:32 Error: [FatalErrorException] Class 'appController' not found
+Request URL: /tgat-dev-01/
+Stack Trace:
+#0 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'appContr...', 'F:\WWW\wamp\www...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'appContr...', 'F:\WWW\wamp\www...', 3, Array)
+#2 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'appContr...', 'F:\WWW\wamp\www...', 3, Array)
+#3 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-01 03:32:07 Error: [MissingActionException] Action HomeController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'index',
+)
+Request URL: /tgat-dev-01/
+Stack Trace:
+#0 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 F:\WWW\wamp\www\tgat-dev-01\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 F:\WWW\wamp\www\tgat-dev-01\index.php(43): require('F:\WWW\wamp\www...')
+#4 {main}
+2013-08-01 03:32:37 Error: [MissingViewException] View file "F:\WWW\wamp\www\tgat-dev-01\app\View\Home\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'F:\\WWW\\wamp\\www\\tgat-dev-01\\app\\View\\Home\\index.ctp',
+)
+Request URL: /tgat-dev-01/
+Stack Trace:
+#0 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 F:\WWW\wamp\www\tgat-dev-01\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 F:\WWW\wamp\www\tgat-dev-01\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 F:\WWW\wamp\www\tgat-dev-01\index.php(43): require('F:\WWW\wamp\www...')
+#6 {main}
